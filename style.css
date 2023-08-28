@@ -1,4 +1,7 @@
 
+.img-fluid {
+    height: fit-content
+}
 .banner {
     background-color: grey;
     text-align: center;
