@@ -15,3 +15,11 @@
     color: white;
     padding: 1em;
 }
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1em;
+    
+}
