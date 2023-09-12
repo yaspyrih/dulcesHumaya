@@ -15,6 +15,9 @@
     color: white;
     padding: 1em;
 }
+.contenedor {
+    height: fit-content
+}
 
 .footer {
     display: flex;
