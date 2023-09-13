@@ -19,6 +19,15 @@
     height: fit-content
 }
 
+.recipes {
+    display: flex;
+    flex-direction: row; 
+    align-content: flex-start;
+    width: fit-content;
+    justify-content: space-between;     
+    
+}
+
 .footer {
     display: flex;
     flex-direction: row;
