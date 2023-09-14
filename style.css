@@ -7,7 +7,7 @@
 }
 
 .img-fluid {
-    height: fit-content
+    height: fit-content;
 }
 .banner {
     background-color: grey;
@@ -18,13 +18,15 @@
 .contenedor {
     height: fit-content
 }
-
-.recipes {
+.seccionRecetas {
     display: flex;
-    flex-direction: row; 
-    align-content: flex-start;
-    width: fit-content;
-    justify-content: space-between;     
+    flex-flow: row wrap;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.recipe{
+    width: 25rem;
     
 }
 

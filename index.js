@@ -22,17 +22,15 @@ try {
 	result.results.forEach(item => {
 		recipes += `
 		
-		<div class="recipes card-group rounded-start bg-dark">
-			<div class=" bg-dark">
-				<div class="card text-bg-secondary p-2 ">
-					<img class="thumbnail card-img-top rounded-start" src="${item.thumbnail_url}">
+		<div class=" card-group bg-dark">
+				<div class="recipe card text-bg-secondary p-2 ">
+					<img class="thumbnail card-img-top rounded" src="${item.thumbnail_url}">
 						<div class="card-body">
 						<h3 class="card-title name">${item.name}</h3>
 						<p id="description" class="description"> ${item.description}</p>
 						<a id="video" href="${item.video_url}" class="video btn btn-dark">Video</a>
 						</div>
 				</div>	
-			</div>
 		</div>
 	`;
 	})
